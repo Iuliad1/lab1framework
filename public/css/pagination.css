@@ -1,0 +1,28 @@
+/* Stilurile pentru paginare */
+ul.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+ul.pagination li {
+    margin: 0 5px;
+    display: inline;
+}
+
+ul.pagination li.active {
+    font-weight: bold;
+}
+
+ul.pagination a {
+    text-decoration: none;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+ul.pagination a:hover {
+    background-color: #007BFF;
+    color: white;
+}
